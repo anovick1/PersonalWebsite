@@ -1,4 +1,4 @@
-## <a href="averynovick.dev" target="_blank">Avery Novick Porfolio Website </a>
+## <a href="averynovick.dev" target="_blank">Avery Novick Personal Website </a>
 
 ---
 
