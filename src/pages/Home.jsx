@@ -6,10 +6,13 @@ const Home = ({ topProjects }) => {
   return (
     <div className="home">
       <Avery />
-      <div className="displayed-projects">
-        {topProjects.map((p, index) => (
-          <>{Project(p)}</>
-        ))}
+      <div className="top-projects">
+        <h2>Top Projects</h2>
+        <div className="displayed-projects">
+          {topProjects.map((p, index) => (
+            <>{Project(p)}</>
+          ))}
+        </div>
       </div>
     </div>
   )
