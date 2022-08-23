@@ -165,7 +165,7 @@ function App() {
     short_description:
       'A python script that takes live stock data to predict future stock prices using the WACC financial model',
     long_description:
-      'For my Computer Science Capstone Project at American University, I teamed up with another CS student and two finance students in order to make this stock price calculator. We automated the financial models (WACC model, 5 year financial data forecast, and DCF model) that were able to predict the future prices of different stocks. These models usually take analysts 3-4 hours in excel to create. Inputting data into this script and getting a result takes about 3 minutes',
+      'For my Computer Science Capstone Project at American University, I teamed up with another CS student and two finance students in order to make this stock price prediction calculator. We automated the financial models (WACC model, 5 year financial data forecast, and DCF model) that were able to predict the future prices of different stocks. These models usually take analysts 3-4 hours in excel to create. Inputting data into this script and getting a result takes about 3 minutes',
     img: [
       'https://sevensreport.com/wp-content/uploads/2016/07/stock-market-3.jpg'
     ],
@@ -217,7 +217,7 @@ function App() {
     ],
     short_description: 'A map of the US showcasing Covid test and Covid cases.',
     long_description:
-      'For my Web Programming class at American, this was my final project. It was a group project with 2 other students. We decided to make a map that can give users information about covid in their state. Note - this was made in May of 2021 so the key is not updated with current numbers. That is why the whole use is dark red for cases.',
+      'For my Web Programming class at American University, this Covid Map was my final project. It was a group project with 2 other students. We decided to make a map that can give users information about covid in their state. Note - this was made in May of 2021 so the key is not updated with current numbers. That is why the whole use is dark red for cases.',
     img: ['https://github.com/anovick1/Covid-Map/raw/main/screenshot.png'],
     github: 'https://github.com/anovick1/Covid-Map',
     deployed_link: null
@@ -248,7 +248,7 @@ function App() {
     ],
     short_description: 'A simple blackjack app using JavaScript, HTML, CSS.',
     long_description:
-      'This was my first project for the General Assembly Software Engineering Immersive program. I built this project over the course of 5 days using vanilla Javascript, HTML, and CSS. ',
+      'Blackjack was my first project for the General Assembly Software Engineering Immersive program. I built this project over the course of 5 days using vanilla Javascript, HTML, and CSS. ',
     img: [
       'https://github.com/anovick1/Blackjack_Novick/raw/main/images/winner.png'
     ],
@@ -305,7 +305,7 @@ function App() {
     ],
     short_description: 'A website where you can review different theme parks',
     long_description:
-      'This was a Hackathon with General assembly that lasted a day and a half; I was in a group of 3. Our group was tasked with creating a theme park themed Full Stack Application in a day and a half using React, a MongoDB , and a Mongoose/Express. We created a Theme Park Review Website that includes real Yelp reviews',
+      'Theme Park Review was a Hackathon with General assembly that lasted a day and a half; I was in a group of 3. Our group was tasked with creating a theme park themed Full Stack Application in a day and a half using React, a MongoDB , and a Mongoose/Express. We created a Theme Park Review Website that includes real Yelp reviews',
     img: [
       'https://github.com/anovick1/Theme_Park/raw/main/Images/DeployedHomepage.png',
       'https://github.com/anovick1/Theme_Park/raw/main/Images/Deployedform.png'
@@ -428,7 +428,7 @@ function App() {
     ],
     short_description: 'A dating app targeted at people in the tech industry',
     long_description:
-      'This was for my 3rd project at General Assembly, it was a group project with two others. Formatted for mobile and desktop, Tech Tinder is a full stack application using PostgreSQL, Express.js, React, Node.js (PERN). Tech Tinder is a fully functional mock dating app for individuals who are in tech. It is just like tinder without the messaging (a future update!).',
+      'Tech Tinder was for my 3rd project at General Assembly, it was a group project with two others. Formatted for mobile and desktop, Tech Tinder is a full stack application using PostgreSQL, Express.js, React, Node.js (PERN). Tech Tinder is a fully functional mock dating app for individuals who are in tech. It is just like tinder without the messaging (a future update!).',
     img: [
       './images/techtinder-home-mobile.png',
       'https://github.com/anovick1/Tech-Tinder-Front/raw/main/images/edit.png'

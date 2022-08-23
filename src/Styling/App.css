@@ -227,6 +227,7 @@ footer p {
 
 #footer {
   width: 80vw;
+  margin-top: 1vh;
 }
 .lp-images {
   display: flex;
