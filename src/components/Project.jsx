@@ -12,7 +12,7 @@ const Project = (p) => {
       <div className="sp-tech">
         {p.tech.map((t, index) => (
           <div>
-            <a href={t.link}>
+            <a href={t.link} target="_blank" rel="noopener noreferrer">
               <img src={t.img} />{' '}
             </a>
           </div>

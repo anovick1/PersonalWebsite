@@ -30,6 +30,47 @@
 }
 
 .sp-tech img {
-  height: 5vh;
+  height: 3vh;
   margin: 1vh 2vh;
+}
+.sp-tech img:hover,
+.socials img:hover {
+  transform: scale(1.3);
+}
+.avery {
+  display: flex;
+  margin-left: -20vw;
+  justify-content: center;
+}
+.avery img {
+  width: 20vw;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.a-img-text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.socials img {
+  border: none;
+  border-radius: 0;
+  width: 2vw;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+.a-text h1 {
+  font-size: 50px;
+  margin: 0;
+}
+.a-text h2 {
+  font-style: italic;
+  margin: 6vh 0;
+}
+.a-text {
+  margin-left: 3vw;
 }
