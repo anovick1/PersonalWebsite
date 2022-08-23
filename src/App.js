@@ -1,11 +1,14 @@
 import './Styling/App.css'
 import { Route, Routes } from 'react-router-dom'
+import React, { useState } from 'react'
+
 import Navbar from './pages/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import ProjectDetails from './pages/ProjectDetails'
 import Footer from './pages/Footer'
 import Projects from './pages/Projects'
+import Avery from './components/Avery'
 
 function App() {
   // {
@@ -22,6 +25,7 @@ function App() {
 
   let allProjects = []
   let topProjects = []
+  const [displayedProject, setDisplayedProject] = useState(null)
   let skills = [
     {
       type: 'JavaScript',
@@ -165,7 +169,7 @@ function App() {
       'https://sevensreport.com/wp-content/uploads/2016/07/stock-market-3.jpg'
     ],
     github: 'https://github.com/anovick1/Stock_AI',
-    deployed_link: 'NA'
+    deployed_link: null
   }
   allProjects.push(stock)
   let covid = {
@@ -215,7 +219,7 @@ function App() {
       'For my Web Programming class at American, this was my final project. It was a group project with 2 other students. We decided to make a map that can give users information about covid in their state. Note - this was made in May of 2021 so the key is not updated with current numbers. That is why the whole use is dark red for cases.',
     img: ['https://github.com/anovick1/Covid-Map/raw/main/screenshot.png'],
     github: 'https://github.com/anovick1/Covid-Map',
-    deployed_link: 'NA'
+    deployed_link: null
   }
   allProjects.push(covid)
   topProjects.push(covid)
@@ -306,7 +310,7 @@ function App() {
       'https://github.com/anovick1/Theme_Park/raw/main/Images/Deployedform.png'
     ],
     github: 'https://github.com/anovick1/Theme_Park',
-    deployed_link: 'NA'
+    deployed_link: null
   }
   allProjects.push(theme)
   let nba = {
@@ -442,7 +446,12 @@ function App() {
           element={
             <>
               <Navbar />
-              <Home topProjects={topProjects} skills={skills} />
+              <Home
+                topProjects={topProjects}
+                skills={skills}
+                displayedProject={displayedProject}
+                setDisplayedProject={setDisplayedProject}
+              />
               <Footer />
             </>
           }
@@ -462,17 +471,26 @@ function App() {
           element={
             <>
               <Navbar />
-              <Projects allProjects={allProjects} />
+              <Projects
+                allProjects={allProjects.reverse()}
+                displayedProject={displayedProject}
+                setDisplayedProject={setDisplayedProject}
+              />
               <Footer />
             </>
           }
         />
         <Route
-          path="/title"
+          path="/:name"
           element={
             <>
               <Navbar />
-              <ProjectDetails />
+              <Avery />
+              <ProjectDetails
+                allProjects={allProjects}
+                displayedProject={displayedProject}
+                setDisplayedProject={setDisplayedProject}
+              />
               <Footer />
             </>
           }

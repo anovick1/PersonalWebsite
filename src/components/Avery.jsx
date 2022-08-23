@@ -10,6 +10,8 @@ const Avery = () => {
         <div className="a-text">
           <h1>Avery Novick</h1>
           <h2>Full Stack Software Engineer</h2>
+          <p>averynov@yahoo.com</p>
+          <p>(781) 290-8623</p>
           <div className="socials">
             <a
               href="https://www.linkedin.com/in/avery-novick/"
@@ -19,17 +21,13 @@ const Avery = () => {
               <img src="https://cdn-icons-png.flaticon.com/512/25/25320.png" />
             </a>
             <a
-              href="PUT LINK TO PDF RESUME HERE"
+              href="https://github.com/anovick1"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png" />
             </a>
-            <a
-              href="https://github.com/anovick1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="PUT RESUME HERE" target="_blank" rel="noopener noreferrer">
               <img src="https://cdn-icons-png.flaticon.com/512/85/85047.png" />
             </a>
           </div>

@@ -2,9 +2,7 @@ import React from 'react'
 import Project from '../components/Project'
 import Avery from '../components/Avery'
 
-const Projects = ({ allProjects }) => {
-  let arr = allProjects.reverse()
-
+const Projects = ({ allProjects, displayedProject, setDisplayedProject }) => {
   return (
     <div>
       <Avery />
@@ -14,8 +12,17 @@ const Projects = ({ allProjects }) => {
           <p>click to view more</p>
         </div>
         <div className="displayed-all-projects">
-          {arr.map((p, index) => (
-            <>{<Project p={p} index={index} />}</>
+          {allProjects.map((p, index) => (
+            <>
+              {
+                <Project
+                  p={p}
+                  index={index}
+                  displayedProject={displayedProject}
+                  setDisplayedProject={setDisplayedProject}
+                />
+              }
+            </>
           ))}
         </div>
       </div>

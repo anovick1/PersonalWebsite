@@ -3,7 +3,12 @@ import Project from '../components/Project'
 import Avery from '../components/Avery'
 import Skills from '../components/Skills'
 
-const Home = ({ topProjects, skills }) => {
+const Home = ({
+  topProjects,
+  skills,
+  displayedProject,
+  setDisplayedProject
+}) => {
   return (
     <div className="home">
       <Avery />
@@ -15,7 +20,16 @@ const Home = ({ topProjects, skills }) => {
         </div>
         <div className="displayed-projects">
           {topProjects.map((p, index) => (
-            <>{<Project p={p} index={index} />}</>
+            <>
+              {
+                <Project
+                  p={p}
+                  index={index}
+                  displayedProject={displayedProject}
+                  setDisplayedProject={setDisplayedProject}
+                />
+              }
+            </>
           ))}
         </div>
       </div>

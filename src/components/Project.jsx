@@ -1,18 +1,15 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Project = ({ p, index }) => {
+const Project = ({ p, index, displayedProject, setDisplayedProject }) => {
   let navigate = useNavigate()
 
   const showProject = (p) => {
-    navigate(`/${p}`)
+    setDisplayedProject(p)
+    navigate(`/${p.name}`)
   }
   return (
-    <div
-      className="small-project"
-      key={index}
-      onClick={() => showProject(p.name)}
-    >
+    <div className="small-project" key={index} onClick={() => showProject(p)}>
       <div className="sp-title">
         <h5>{p.date}</h5>
         <h3>{p.title}</h3>

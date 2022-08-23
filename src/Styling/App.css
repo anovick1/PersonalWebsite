@@ -20,7 +20,8 @@ html {
   margin: 2vh 0;
 }
 .small-project:hover,
-.skill:hover {
+.skill:hover,
+.lp-github:hover {
   cursor: pointer;
   transform: scale(1.05);
 }
@@ -75,21 +76,26 @@ html {
 .socials {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 4vh;
 }
 .a-text h1 {
   font-size: 50px;
   margin: 0;
 }
+.a-text p {
+  margin: 2vh 0;
+}
 .a-text h2 {
   font-style: italic;
-  margin: 6vh 0;
+  margin: 4vh 0 2vh 0;
 }
 .a-text {
   margin-left: 3vw;
 }
 
 .top-projects,
-.skills {
+.skills,
+.large-project {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,9 +123,13 @@ header {
   width: 72vw;
   margin-top: 2vw;
 }
-.home-title p {
+.home-title p,
+.home-title h5 {
   margin-top: 0;
   font-style: italic;
+}
+.home-title h5 {
+  margin: 1vh 0;
 }
 .home-title h1 {
   margin-bottom: 0;
@@ -168,9 +178,21 @@ a:active {
 
 .displayed-all-projects {
   display: flex;
-  /* flex-direction: row-reverse; */
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 80vw;
+}
+
+.lp-github img {
+  width: 4vw;
+}
+
+#lp-title-git {
+  display: flex;
+  width: 72vw;
+  justify-content: space-between;
+  align-items: center;
 }
