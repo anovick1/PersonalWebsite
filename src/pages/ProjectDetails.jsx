@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import Skills from '../components/Skills'
 
 const ProjectDetails = ({
   displayedProject,
@@ -39,10 +40,40 @@ const ProjectDetails = ({
             rel="noopener noreferrer"
           >
             <img src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png" />
+            {/* <p>GitHub Link</p> */}
           </a>
         </div>
       </div>
-      {/* </div> */}
+      <div className="lp-title-images">
+        <div className="section-title">
+          <h2>Screenshots</h2>
+        </div>
+        <div className="lp-images">
+          {displayedProject.img.map((i, index) => (
+            <div className="lp-img" key={index}>
+              <img src={i} />
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="section-cont">
+        <div className="section-title">
+          <h2>Description</h2>
+        </div>
+        <div className="lp-description">
+          <h3>{displayedProject.long_description}</h3>
+          <p>{displayedProject.date}</p>
+        </div>
+      </div>
+      <div className="section-title">
+        <h2>Skills</h2>
+        <p>click to view documentation</p>
+      </div>
+      <div className="displayed-skills" id="lp-skill">
+        {displayedProject.tech.map((s, index) => (
+          <>{<Skills s={s} index={index} />}</>
+        ))}
+      </div>
     </div>
   ) : (
     ''

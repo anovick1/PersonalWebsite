@@ -189,7 +189,12 @@ a:active {
 .lp-github img {
   width: 4vw;
 }
-
+.lp-github {
+  text-align: center;
+}
+a p {
+  font-size: 16px;
+}
 #lp-title-git {
   display: flex;
   width: 72vw;
@@ -222,4 +227,49 @@ footer p {
 
 #footer {
   width: 80vw;
+}
+.lp-images {
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-evenly;
+  display: flex;
+  width: 70vw;
+}
+
+.lp-img img {
+  width: 30vw;
+  height: 30vw;
+  object-fit: contain;
+}
+
+.lp-description {
+  width: 60vw;
+  font-weight: normal;
+}
+.section-cont {
+  border-bottom: 1px solid black;
+  width: 72vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lp-description h3 {
+  font-weight: normal;
+}
+.lp-description p {
+  text-align: end;
+}
+
+.lp-title-images {
+  /* width: 80vw; */
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+}
+.section-title {
+  /* margin-left: 4vw; */
+  width: 72vw;
+}
+#lp-skill {
+  border: 0;
 }

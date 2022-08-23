@@ -137,7 +137,8 @@ function App() {
     }
   ]
   let stock = {
-    title: 'Stock Price Prediction Calculator',
+    name: 'Stock_Price_Prediction',
+    title: 'Stock Price Prediction',
     date: 'May 2021',
     tech: [
       {
@@ -225,7 +226,7 @@ function App() {
   topProjects.push(covid)
 
   let bj = {
-    id: 'Blackjack',
+    name: 'Blackjack',
     title: 'Blackjack',
     date: 'July 2022',
     tech: [
