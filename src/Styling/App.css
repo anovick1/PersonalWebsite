@@ -1,6 +1,7 @@
 html {
-  background-image: url('https://c0.wallpaperflare.com/preview/733/889/238/minimal-wallpaper-light-blue-clean-wallpaper-water.jpg');
-  background-size: cover;
+  /* background-image: url('https://c0.wallpaperflare.com/preview/733/889/238/minimal-wallpaper-light-blue-clean-wallpaper-water.jpg');
+  background-size: cover; */
+  background-color: #b4e4fa;
 }
 .sp-img img {
   width: 20vw;
