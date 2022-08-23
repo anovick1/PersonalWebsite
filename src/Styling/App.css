@@ -178,7 +178,7 @@ a:active {
 
 .displayed-all-projects {
   display: flex;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   border-top: 1px solid black;
   justify-content: space-around;
   align-items: center;

@@ -69,7 +69,7 @@ function App() {
     },
     {
       type: 'MongoDB',
-      img: 'https://cdn-icons-png.flaticon.com/512/288/288882.png',
+      img: 'https://prismatic.io/docs/assets/images/icon-f6b5484f918980c742825c9aefc9c238.png',
       link: 'https://www.mongodb.com/'
     },
     {
@@ -146,18 +146,18 @@ function App() {
         link: 'https://www.python.org/'
       },
       {
-        type: 'Pandas.py',
-        img: 'https://www.pinclipart.com/picdir/middle/367-3678882_python-logo-clipart-easy-pandas-python-logo-png.png',
-        link: 'https://pandas.pydata.org/'
-      },
-      {
         type: 'NumPy',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkX54_8TzFQvnJRNzwhgrAQnJDHRW_OVioTm_IOgKExo5Gp3zrHfXNklAaYh8TcBXsWo0&usqp=CAU',
+        img: 'https://codebykelvin.com/learning/python/data-science/numpy-series/cover-numpy.png',
         link: 'https://numpy.org/'
       },
       {
+        type: 'Pandas.py',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/2560px-Pandas_logo.svg.png',
+        link: 'https://pandas.pydata.org/'
+      },
+      {
         type: 'Alpha Vantage API',
-        img: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/mejkuijaczeid9uiosyx',
+        img: 'https://miro.medium.com/max/1400/1*hniu4saxhfVhhKdE4aMnMg.png',
         link: 'https://www.alphavantage.co/'
       }
     ],
@@ -210,7 +210,7 @@ function App() {
       },
       {
         type: 'Disease.sh',
-        img: 'https://pbs.twimg.com/profile_images/1274055454260412420/ke8CYWAr_400x400.jpg',
+        img: 'https://github.com/disease-sh/API/blob/master/public/assets/img/icon.jpg?raw=true',
         link: 'https://disease.sh/'
       }
     ],
@@ -282,7 +282,7 @@ function App() {
       },
       {
         type: 'MongoDB',
-        img: 'https://mpng.subpng.com/20190111/thz/kisspng-mongodb-logo-database-nosql-postgresql-how-to-create-an-outstanding-tech-stack-clickup-bl-5c391bdf9cff48.4731136215472465596431.jpg',
+        img: 'https://prismatic.io/docs/assets/images/icon-f6b5484f918980c742825c9aefc9c238.png',
         link: 'https://www.mongodb.com/'
       },
 
@@ -293,7 +293,7 @@ function App() {
       },
       {
         type: 'Express.js',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49CPLVKPAe1cslXaHnF20_Qwt-MiSoRen-vvYNoCmLkKwCQ1GtWdstwiUeDJ03RYu5ik&usqp=CAU',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png',
         link: 'https://expressjs.com/'
       },
       {
@@ -340,7 +340,7 @@ function App() {
       },
       {
         type: 'MongoDB',
-        img: 'https://mpng.subpng.com/20190111/thz/kisspng-mongodb-logo-database-nosql-postgresql-how-to-create-an-outstanding-tech-stack-clickup-bl-5c391bdf9cff48.4731136215472465596431.jpg',
+        img: 'https://prismatic.io/docs/assets/images/icon-f6b5484f918980c742825c9aefc9c238.png',
         link: 'https://www.mongodb.com/'
       },
 
@@ -351,7 +351,7 @@ function App() {
       },
       {
         type: 'Express.js',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49CPLVKPAe1cslXaHnF20_Qwt-MiSoRen-vvYNoCmLkKwCQ1GtWdstwiUeDJ03RYu5ik&usqp=CAU',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png',
         link: 'https://expressjs.com/'
       },
       {
@@ -416,7 +416,7 @@ function App() {
       },
       {
         type: 'Express.js',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49CPLVKPAe1cslXaHnF20_Qwt-MiSoRen-vvYNoCmLkKwCQ1GtWdstwiUeDJ03RYu5ik&usqp=CAU',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png',
         link: 'https://expressjs.com/'
       },
       {
