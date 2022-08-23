@@ -4,6 +4,8 @@ import Navbar from './pages/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import ProjectDetails from './pages/ProjectDetails'
+import Footer from './pages/Footer'
+import Projects from './pages/Projects'
 
 function App() {
   // {
@@ -20,6 +22,116 @@ function App() {
 
   let allProjects = []
   let topProjects = []
+  let skills = [
+    {
+      type: 'JavaScript',
+      img: 'https://icon-library.com/images/javascript-icon-png/javascript-icon-png-15.jpg',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+    },
+    {
+      type: 'Python',
+      img: 'https://cdn-icons-png.flaticon.com/512/2/2181.png',
+      link: 'https://www.python.org/'
+    },
+    {
+      type: 'Java',
+      img: 'https://cdn-icons-png.flaticon.com/512/226/226777.png',
+      link: 'https://www.java.com/en/'
+    },
+    {
+      type: 'React',
+      img: 'https://cdn.iconscout.com/icon/free/png-256/react-3521666-2945110.png',
+      link: 'https://reactjs.org/'
+    },
+    {
+      type: 'Django',
+      img: 'https://cdn.iconscout.com/icon/free/png-256/django-1-282754.png',
+      link: 'https://www.djangoproject.com/'
+    },
+    {
+      type: 'SQL',
+      img: 'https://cdn-icons-png.flaticon.com/512/2772/2772165.png',
+      link: 'https://docs.microsoft.com/en-us/sql/?view=sql-server-ver16'
+    },
+    {
+      type: 'MySQL',
+      img: 'https://cdn.iconscout.com/icon/free/png-256/mysql-19-1174939.png',
+      link: 'https://www.mysql.com/'
+    },
+    {
+      type: 'PostgreSQL',
+      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png',
+      link: 'https://www.postgresql.org/'
+    },
+    {
+      type: 'MongoDB',
+      img: 'https://cdn-icons-png.flaticon.com/512/288/288882.png',
+      link: 'https://www.mongodb.com/'
+    },
+    {
+      type: 'Vue.js',
+      img: 'https://cdn.iconscout.com/icon/free/png-256/vuejs-1175052.png',
+      link: 'https://vuejs.org/'
+    },
+
+    {
+      type: 'HTML',
+      img: 'https://cdn-icons-png.flaticon.com/512/732/732073.png',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
+    },
+    {
+      type: 'CSS',
+      img: 'https://cdn-icons-png.flaticon.com/512/5968/5968477.png',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+    },
+
+    {
+      type: 'Sequelize',
+      img: 'https://sequelize.org/img/logo.svg',
+      link: 'https://sequelize.org/'
+    },
+    {
+      type: 'Mongoose',
+      img: 'https://avatars.githubusercontent.com/u/7552965?s=280&v=4',
+      link: 'https://mongoosejs.com/docs/'
+    },
+    {
+      type: 'Express.js',
+      img: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png',
+      link: 'https://expressjs.com/'
+    },
+    {
+      type: 'Node.js',
+      img: 'https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png',
+      link: 'https://nodejs.org/en/'
+    },
+    {
+      type: 'NumPy',
+      img: 'https://codebykelvin.com/learning/python/data-science/numpy-series/cover-numpy.png',
+      link: 'https://numpy.org/'
+    },
+    {
+      type: 'Pandas.py',
+      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/2560px-Pandas_logo.svg.png',
+      link: 'https://pandas.pydata.org/'
+    },
+    {
+      type: 'Leaflet.js',
+      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Leaflet_logo.svg/1280px-Leaflet_logo.svg.png',
+      link: 'https://leafletjs.com/'
+    },
+
+    {
+      type: 'P5.js',
+      img: 'http://blindedcyclops.neocities.org/p5js-icons/p5-sq-reverse-filled.png',
+      link: 'https://p5js.org/'
+    },
+    {
+      type: 'Turf.js',
+      img: 'https://pro.guslyon.fr/static/turf-8096e7fa2251c8a157b87597d9634800.png',
+      link: 'https://turfjs.org/'
+    }
+  ]
   let stock = {
     title: 'Stock Price Prediction Calculator',
     date: 'May 2021',
@@ -57,6 +169,7 @@ function App() {
   }
   allProjects.push(stock)
   let covid = {
+    name: 'Covid_Map',
     title: 'Covid Map',
     date: 'May 2021',
     tech: [
@@ -108,6 +221,7 @@ function App() {
   topProjects.push(covid)
 
   let bj = {
+    id: 'Blackjack',
     title: 'Blackjack',
     date: 'July 2022',
     tech: [
@@ -138,6 +252,7 @@ function App() {
   }
   allProjects.push(bj)
   let theme = {
+    name: 'Theme_Park_Review',
     title: 'Theme Park Review',
     date: 'July 2022',
     tech: [
@@ -195,6 +310,7 @@ function App() {
   }
   allProjects.push(theme)
   let nba = {
+    name: 'NBA_Hot_Takes',
     title: 'NBA Hot Takes',
     date: 'July 2022',
     tech: [
@@ -259,6 +375,7 @@ function App() {
   topProjects.push(nba)
 
   let techtinder = {
+    name: 'Tech_Tinder',
     title: 'Tech Tinder',
     date: 'August 2022',
     tech: [
@@ -325,7 +442,8 @@ function App() {
           element={
             <>
               <Navbar />
-              <Home topProjects={topProjects} />
+              <Home topProjects={topProjects} skills={skills} />
+              <Footer />
             </>
           }
         />
@@ -335,6 +453,17 @@ function App() {
             <>
               <Navbar />
               <About />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <>
+              <Navbar />
+              <Projects allProjects={allProjects} />
+              <Footer />
             </>
           }
         />
@@ -344,6 +473,7 @@ function App() {
             <>
               <Navbar />
               <ProjectDetails />
+              <Footer />
             </>
           }
         />
