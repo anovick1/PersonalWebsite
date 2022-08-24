@@ -21,7 +21,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25320.png" />
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384088.png" />
           </a>
           <a
             href="https://github.com/anovick1"
