@@ -60,7 +60,7 @@ const Home = ({
       </div>
       <div className="education">
         <div className="home-title">
-          <h1>Education</h1>
+          <h1 id="edu">Education</h1>
         </div>
         <div className="displayed-education">
           <div className="small-education">
