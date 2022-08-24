@@ -1,7 +1,9 @@
 import React from 'react'
+import { useEffect } from 'react'
 import Project from '../components/Project'
 import Avery from '../components/Avery'
 import Skills from '../components/Skills'
+import { useNavigate } from 'react-router-dom'
 
 const Home = ({
   topProjects,
@@ -9,6 +11,14 @@ const Home = ({
   displayedProject,
   setDisplayedProject
 }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  let navigate = useNavigate()
+  const viewMore = () => {
+    navigate('/projects')
+    window.scrollTo(0, 0)
+  }
   return (
     <div className="home">
       <Avery />
@@ -31,6 +41,11 @@ const Home = ({
               }
             </>
           ))}
+        </div>
+        <div className="view-more">
+          <div className="vm-text" onClick={viewMore}>
+            <h3>View More Projects</h3>
+          </div>
         </div>
       </div>
       <div className="skills">

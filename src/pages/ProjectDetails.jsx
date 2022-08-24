@@ -10,6 +10,7 @@ const ProjectDetails = ({
 }) => {
   let { name } = useParams()
   useEffect(() => {
+    window.scrollTo(0, 0)
     let select = allProjects.find((p) => p.name === name)
     setDisplayedProject(select)
   }, [name])

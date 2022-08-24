@@ -21,7 +21,8 @@ html {
 }
 .small-project:hover,
 .skill:hover,
-.lp-github:hover {
+.lp-github:hover,
+.vm-text:hover {
   cursor: pointer;
   transform: scale(1.05);
 }
@@ -31,8 +32,20 @@ html {
   justify-content: space-around;
   align-items: center;
   width: 80vw;
-  border-bottom: 1px solid black;
   border-top: 1px solid black;
+}
+.view-more {
+  width: 80vw;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+.vm-text {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 2vh 0;
+  padding: 0 1vh;
 }
 .sp-tech {
   display: flex;

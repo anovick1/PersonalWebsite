@@ -1,6 +1,6 @@
 import './Styling/App.css'
 import { Route, Routes } from 'react-router-dom'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import Navbar from './pages/Navbar'
 import Home from './pages/Home'
@@ -22,7 +22,9 @@ function App() {
   //   github: '',
   //   deployed_link: ''
   // }
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   let allProjects = []
   let topProjects = []
   const [displayedProject, setDisplayedProject] = useState(null)
