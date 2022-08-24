@@ -29,7 +29,6 @@ const Project = ({ p, index, displayedProject, setDisplayedProject }) => {
           </div>
         ))}
       </div>
-      {/* <button>View More</button> */}
     </div>
   )
 }

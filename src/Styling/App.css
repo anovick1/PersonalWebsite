@@ -8,7 +8,8 @@ html {
   height: 20vw;
   object-fit: contain;
 }
-.small-project {
+.small-project,
+.small-education {
   display: flex;
   flex-direction: column;
   width: 20vw;
@@ -26,6 +27,7 @@ html {
   cursor: pointer;
   transform: scale(1.05);
 }
+
 .displayed-projects {
   display: flex;
   flex-direction: row-reverse;
@@ -33,6 +35,15 @@ html {
   align-items: center;
   width: 80vw;
   border-top: 1px solid black;
+}
+.displayed-education {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  border-top: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 .view-more {
   width: 80vw;
@@ -108,10 +119,20 @@ html {
 
 .top-projects,
 .skills,
-.large-project {
+.large-project,
+.education {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#american {
+  text-align: left;
+  margin-left: 1vw;
+  border-bottom: 0;
+}
+span {
+  text-decoration: underline;
+  font-weight: bold;
 }
 nav {
   display: flex;
@@ -153,7 +174,7 @@ header {
   justify-content: space-evenly;
   width: 75vw;
   padding: 0 2.5vw;
-  /* border-bottom: 1px solid black; */
+  border-bottom: 1px solid black;
   border-top: 1px solid black;
 }
 

@@ -22,7 +22,6 @@ const Home = ({
   return (
     <div className="home">
       <Avery />
-
       <div className="top-projects">
         <div className="home-title">
           <h1>Top Projects</h1>
@@ -44,7 +43,7 @@ const Home = ({
         </div>
         <div className="view-more">
           <div className="vm-text" onClick={viewMore}>
-            <h3>View More Projects</h3>
+            <h3>View All Projects</h3>
           </div>
         </div>
       </div>
@@ -57,6 +56,49 @@ const Home = ({
           {skills.map((s, index) => (
             <>{<Skills s={s} index={index} />}</>
           ))}
+        </div>
+      </div>
+      <div className="education">
+        <div className="home-title">
+          <h1>Education</h1>
+        </div>
+        <div className="displayed-education">
+          <div className="small-education">
+            <div className="sp-title">
+              <h3>American University</h3>
+              <h5>May 2021</h5>
+            </div>
+            <div className="sp-img">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/American_Eagles_logo.png" />
+            </div>
+            <div className="sp-description" id="american">
+              <p>
+                <span>Major</span>: Computer Science
+              </p>
+              <p>
+                <span>Major:</span> Business Administration
+              </p>
+              <p>
+                <span>Concentration</span>: Entrepreneurship
+              </p>
+            </div>
+          </div>
+          <div className="small-education">
+            <div className="sp-title">
+              <h3>General Assembly</h3>
+              <h5>September 2022</h5>
+            </div>
+            <div className="sp-img">
+              <img src="https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/23593/ga-logo-gear.png" />
+            </div>
+            <div className="sp-description" id="american">
+              <p>
+                500+ hours of expert-led instruction in full stack web and
+                mobile application fundamentals using the industry’s most
+                in-demand technologies.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
