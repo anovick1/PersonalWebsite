@@ -5,10 +5,7 @@ const Avery = () => {
     <div className="avery">
       <div className="a-img-text">
         <div>
-          <img
-            src="https://github.com/anovick1/PersonalWebsite/blob/main/public/images/linkedinPFP.png?raw=true"
-            alt=""
-          />
+          <img src="./images/linkedinPFP.png" alt="" />
         </div>
         <div className="a-text">
           <h1>Avery Novick</h1>

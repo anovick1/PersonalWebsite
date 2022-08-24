@@ -430,7 +430,7 @@ function App() {
     long_description:
       'Tech Tinder was for my 3rd project at General Assembly, it was a group project with two others. Formatted for mobile and desktop, Tech Tinder is a full stack application using PostgreSQL, Express.js, React, Node.js (PERN). Tech Tinder is a fully functional mock dating app for individuals who are in tech. It is just like tinder without the messaging (a future update!).',
     img: [
-      'https://github.com/anovick1/PersonalWebsite/blob/main/public/images/techtinder-home-mobile.png?raw=true',
+      './images/techtinder-home-mobile.png',
       'https://github.com/anovick1/Tech-Tinder-Front/raw/main/images/edit.png'
     ],
     github: 'https://github.com/anovick1/Tech-Tinder-Front',
