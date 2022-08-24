@@ -66,7 +66,7 @@ const ProjectDetails = ({
         </div>
       </div>
       <div className="section-title">
-        <h2>Skills</h2>
+        <h2>Technology Used</h2>
         <p>click to view documentation</p>
       </div>
       <div className="displayed-skills" id="lp-skill">

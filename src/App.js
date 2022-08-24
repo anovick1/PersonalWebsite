@@ -434,7 +434,7 @@ function App() {
       'https://github.com/anovick1/Tech-Tinder-Front/raw/main/images/edit.png'
     ],
     github: 'https://github.com/anovick1/Tech-Tinder-Front',
-    deployed_link: 'https://techtinder.herokuapp.com/'
+    deployed_link: 'https://tech-tinder-novick.web.app/'
   }
   allProjects.push(techtinder)
   topProjects.push(techtinder)
