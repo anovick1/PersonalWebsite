@@ -1,4 +1,4 @@
-## <a href="https://averynovick.dev" rel="noopener noreferrer" target="_blank">Avery Novick Personal Website </a>
+## <a href="https://averynovick.dev" rel="noopener" target="_blank">Avery Novick Personal Website </a>
 
 ---
 
