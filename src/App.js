@@ -217,9 +217,9 @@ function App() {
         link: 'https://disease.sh/'
       }
     ],
-    short_description: 'A map of the US showcasing Covid test and Covid cases.',
+    short_description: 'A map of the US showing Covid tests and Covid cases.',
     long_description:
-      'For my Web Programming class at American University, this Covid Map was my final project. It was a group project with 2 other students. We decided to make a map that can give users information about covid in their state. Note - this was made in May of 2021 so the key is not updated with current numbers. That is why the whole use is dark red for cases.',
+      'For my Web Programming class at American University, this Covid Map was my final project. It was a group project with 2 other students. We decided to make a map that can give users information about Covid in their state. You can filter between Covid cases and Covid Tests. Note - this was made in May of 2021 so the key is not updated with current numbers. That is why the whole use is dark red for cases',
     img: ['https://github.com/anovick1/Covid-Map/raw/main/screenshot.png'],
     github: 'https://github.com/anovick1/Covid-Map',
     deployed_link: null
@@ -307,7 +307,7 @@ function App() {
     ],
     short_description: 'A website where you can review different theme parks',
     long_description:
-      'Theme Park Review was a Hackathon with General assembly that lasted a day and a half; I was in a group of 3. Our group was tasked with creating a theme park themed Full Stack Application in a day and a half using React, a MongoDB , and a Mongoose/Express. We created a Theme Park Review Website that includes real Yelp reviews',
+      'Theme Park Review was a Hackathon with General Assembly that lasted a day and a half; I was in a group of 3. Our group was tasked with creating a theme park themed Full Stack Application in a day and a half using React, MongoDB , and Mongoose/Express. We created a Theme Park Review Website that includes real Yelp reviews',
     img: [
       'https://github.com/anovick1/Theme_Park/raw/main/Images/DeployedHomepage.png',
       'https://github.com/anovick1/Theme_Park/raw/main/Images/Deployedform.png'
@@ -368,9 +368,9 @@ function App() {
         link: 'https://developer.twitter.com/en'
       }
     ],
-    short_description: 'A social media dedicated to NBA Hot takes',
+    short_description: 'A social media dedicated to NBA hot takes',
     long_description:
-      "For my second project with General Assembly I was tasked to make a full stack MongoDB, Express.js, React, Node (MERN) application. As an avid NBA fan who can't stop checking twitter, I decided to make a social media app focused around the NBA. I have implemented the Twitter API that will get live tweets every time I reseed the database.",
+      "For my second project with General Assembly I was tasked to make a full stack MongoDB, Express.js, React, Node (MERN) application. As an avid NBA fan who can't stop checking Twitter, I decided to make a social media app focused on the NBA. I have implemented the Twitter API that will get live tweets every time I reseed the database",
     img: [
       'https://github.com/anovick1/NBA-HotTakes/raw/main/images/newsfeed.png',
       'https://github.com/anovick1/NBA-HotTakes/raw/main/images/profile.png'
@@ -430,7 +430,7 @@ function App() {
     ],
     short_description: 'A dating app targeted at people in the tech industry',
     long_description:
-      'Tech Tinder was for my 3rd project at General Assembly, it was a group project with two others. Formatted for mobile and desktop, Tech Tinder is a full stack application using PostgreSQL, Express.js, React, Node.js (PERN). Tech Tinder is a fully functional mock dating app for individuals who are in tech. It is just like tinder without the messaging (a future update!).',
+      'Tech Tinder was my 3rd project at General Assembly, it was a group project with two others. Formatted for mobile and desktop, Tech Tinder is a full stack application using PostgreSQL, Express.js, React, Node.js (PERN). Tech Tinder is a fully functional mock dating app for individuals who are in tech. It is just like tinder without the messaging (a future update!).',
     img: [
       './images/techtinder-home-mobile.png',
       'https://github.com/anovick1/Tech-Tinder-Front/raw/main/images/edit.png'
