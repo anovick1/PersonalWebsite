@@ -355,6 +355,9 @@ footer p {
     width: 50vw;
   }
   .socials img {
-    width: 10vw;
+    width: 8vw;
+  }
+  .socials {
+    justify-content: space-around;
   }
 }
