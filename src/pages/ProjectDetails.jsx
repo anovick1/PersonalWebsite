@@ -20,7 +20,7 @@ const ProjectDetails = ({
     <div className="large-project">
       <div className="home-title" id="lp-title-git">
         {/* <div className="lp-title-git"> */}
-        <div>
+        <div className="lp-title">
           <h1>{displayedProject.title}</h1>
           {displayedProject.deployed_link !== null ? (
             <a
@@ -33,7 +33,7 @@ const ProjectDetails = ({
           ) : (
             ''
           )}
-          <p>{displayedProject.short_description}</p>
+          {!mobile ? <p>{displayedProject.short_description}</p> : ''}
         </div>
         <div className="lp-github">
           <a
@@ -46,6 +46,7 @@ const ProjectDetails = ({
           </a>
         </div>
       </div>
+
       <div className="lp-title-images">
         <div className="section-title">
           <h2>Screenshots</h2>

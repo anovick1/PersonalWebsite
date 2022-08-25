@@ -364,21 +364,26 @@ footer p {
     /* justify-content: space-around; */
     justify-content: space-between;
   }
-  .home-title {
+  .home-title,
+  #lp-title-git,
+  .section-title {
     width: 80vw;
     /* text-align: center; */
   }
   .displayed-projects,
-  .displayed-education {
+  .displayed-education,
+  .lp-images {
     flex-direction: column-reverse;
     width: 90vw;
   }
   .small-project,
   .small-education,
-  .sp-img img {
+  .sp-img img,
+  .lp-images img {
     width: 60vw;
   }
-  .sp-img img {
+  .sp-img img,
+  .lp-images img {
     height: 60vw;
   }
   .skill-img img {
@@ -392,11 +397,18 @@ footer p {
     padding: 0.7vh;
     margin: 0.5vh 0.5vh;
   }
-  .displayed-skills {
+  .displayed-skills,
+  .lp-description,
+  .lp-skill {
     width: 85vw;
     justify-content: space-between;
   }
-  .view-more {
+  .section-cont h3 {
+    font-size: 1em;
+  }
+  .view-more,
+  .lp-title-images,
+  .section-cont {
     width: 90vw;
   }
   .sp-tech img {
@@ -408,5 +420,18 @@ footer p {
   }
   .footer-info {
     width: 1000vw;
+  }
+  .lp-title {
+    width: 60vw;
+  }
+  .lp-github img {
+    width: 10vw;
+  }
+  .lp-title-images {
+    align-items: center;
+  }
+  .lp-images {
+    flex-direction: column;
+    align-items: center;
   }
 }
