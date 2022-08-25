@@ -149,8 +149,6 @@ header {
   background-color: white;
   position: fixed;
   top: 0;
-  /* transition-timing-function: ease-in; */
-  transition: top 1s;
 }
 .nav-right {
   display: flex;
