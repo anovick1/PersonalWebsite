@@ -22,9 +22,9 @@ function App() {
   //   github: '',
   //   deployed_link: ''
   // }
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
   const [mobile, setMobile] = useState(window.innerWidth < 600)
 
   let allProjects = []

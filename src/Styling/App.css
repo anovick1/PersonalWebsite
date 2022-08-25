@@ -334,6 +334,13 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
+  html {
+    width: 100vw;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
   header {
     width: 100vw;
     display: flex;
