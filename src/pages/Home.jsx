@@ -66,8 +66,8 @@ const Home = ({
         <div className="displayed-education">
           <div className="small-education">
             <div className="sp-title">
-              <h3>American University</h3>
               <h5>May 2021</h5>
+              <h3>American University</h3>
             </div>
             <div className="sp-img">
               <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/American_Eagles_logo.png" />
@@ -86,8 +86,8 @@ const Home = ({
           </div>
           <div className="small-education">
             <div className="sp-title">
-              <h3>General Assembly</h3>
               <h5>September 2022</h5>
+              <h3>General Assembly</h3>
             </div>
             <div className="sp-img">
               <img src="https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/23593/ga-logo-gear.png" />
