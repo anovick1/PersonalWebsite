@@ -41,21 +41,29 @@ const About = () => {
           </div>
           <div className="section-cont" id="bio">
             <div className="section-title">
-              <h2>Time Line</h2>
+              <h2>Timeline</h2>
             </div>
             <div className="lp-description">
               <h3>
                 <span>May 2021</span> - I graduated from American University
                 double-majoring in Computer Science and Business Administration
                 with a concentration in Entrepeneurship. Upon graduation, I was
-                unsure if I wanted to go a business or engineering route.
+                unsure if I wanted to start a business or engineering career.
               </h3>
               <h3>
                 <span>July 2021</span> - I found an amazing opportunity as a
-                Sales Development Representative at Varjo. While I enjoyed my
-                time and learned a lot while I was there, I came to the
-                conclusion that I wanted to start a career in Software
-                Engineering.
+                Sales Development Representative at{' '}
+                <a
+                  href="https://varjo.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="varjo"
+                >
+                  Varjo
+                </a>
+                . While I enjoyed my time and learned a lot while I was there, I
+                came to the conclusion that I wanted to start a career in
+                Software Engineering.
               </h3>
               <h3>
                 <span>June 2022</span> - I decided to enroll in the 12-week
