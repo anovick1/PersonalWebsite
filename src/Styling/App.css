@@ -144,9 +144,12 @@ nav {
 header {
   border-bottom: 1px solid black;
   width: 100vw;
-  /* background-color: rgb(140, 179, 196); */
-  /* background-color: rgba(255, 255, 255, 0.7); */
+  /* background-color: rgb(180, 228, 250);
+
+  background-color: rgba(255, 255, 255, 0.7); */
   background-color: white;
+  /* background-color: rgb(140, 179, 196); */
+
   position: fixed;
   top: 0;
 }
