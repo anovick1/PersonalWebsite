@@ -338,13 +338,16 @@ footer p {
     width: 100vw;
     display: flex;
   }
+  .avery {
+    margin-left: 0;
+  }
   nav {
-    width: 90vw;
+    width: 100vw;
     justify-content: space-between;
   }
   .a-img-text {
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     width: 100vw;
   }
   .a-text h1,
@@ -358,6 +361,52 @@ footer p {
     width: 8vw;
   }
   .socials {
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+  }
+  .home-title {
+    width: 80vw;
+    /* text-align: center; */
+  }
+  .displayed-projects,
+  .displayed-education {
+    flex-direction: column-reverse;
+    width: 90vw;
+  }
+  .small-project,
+  .small-education,
+  .sp-img img {
+    width: 60vw;
+  }
+  .sp-img img {
+    height: 60vw;
+  }
+  .skill-img img {
+    height: 5vh;
+  }
+  .skill p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  .skill {
+    padding: 0.7vh;
+    margin: 0.5vh 0.5vh;
+  }
+  .displayed-skills {
+    width: 85vw;
+    justify-content: space-between;
+  }
+  .view-more {
+    width: 90vw;
+  }
+  .sp-tech img {
+    height: 3vh;
+    margin: 0.5vh 0.5vh;
+  }
+  .f-contact {
+    width: 90vw;
+  }
+  .footer-info {
+    width: 1000vw;
   }
 }

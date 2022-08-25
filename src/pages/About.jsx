@@ -21,22 +21,21 @@ const About = () => {
           </div>
           <div className="lp-description">
             <h3>
-              I am a Full Stack Software Engineer who is a great critical
-              thinker and loves solving problems that make people's lives
-              easier. With a prior background in tech sales, I am a great
-              communicator who is very organized, hard-working, and understands
-              what it takes to succeed.
+              I am a Full Stack Software Engineer who loves problem-solving and
+              making systems run efficiently. With a prior background in tech
+              sales, I am an effective communicator, organized, hard-working,
+              and understand what it takes to succeed.
             </h3>
             <h3>
-              I am originally from the San Fransisco Bay Area but currently
-              based in Washington, DC. I am{' '}
+              I have roots in New York, Boston, and the San Francisco Bay Area
+              and am currently based in Washington, D. C. I am{' '}
               <span id="aboutme">
                 open to any remote / in-person opportunities in any city
               </span>{' '}
               .
             </h3>
             <h3>
-              Please feel free to reach out to me via Cell, Email, or LinkedIn.
+              Please feel free to reach out to me via cell, email, or LinkedIn.
             </h3>
           </div>
           <div className="section-cont" id="bio">
