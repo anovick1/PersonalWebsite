@@ -1,10 +1,10 @@
 import React from 'react'
 import Avery from '../components/Avery'
 
-const About = () => {
+const About = ({ mobile }) => {
   return (
     <div className="home">
-      <Avery />
+      <Avery mobile={mobile} />
       <div className="large-project">
         <div className="home-title">
           <h1>About Me</h1>
@@ -31,7 +31,7 @@ const About = () => {
               and am currently based in Washington, D. C. I am{' '}
               <span id="aboutme">
                 open to any remote / in-person opportunities in any city
-              </span>{' '}
+              </span>
               .
             </h3>
             <h3>
