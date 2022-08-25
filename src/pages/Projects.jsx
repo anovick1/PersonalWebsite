@@ -2,10 +2,15 @@ import React from 'react'
 import Project from '../components/Project'
 import Avery from '../components/Avery'
 
-const Projects = ({ allProjects, displayedProject, setDisplayedProject }) => {
+const Projects = ({
+  allProjects,
+  displayedProject,
+  setDisplayedProject,
+  mobile
+}) => {
   return (
     <div>
-      <Avery />
+      <Avery mobile={mobile} />
       <div className="top-projects">
         <div className="home-title">
           <h1>All Projects</h1>

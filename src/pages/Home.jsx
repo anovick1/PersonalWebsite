@@ -9,7 +9,8 @@ const Home = ({
   topProjects,
   skills,
   displayedProject,
-  setDisplayedProject
+  setDisplayedProject,
+  mobile
 }) => {
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -21,7 +22,7 @@ const Home = ({
   }
   return (
     <div className="home">
-      <Avery />
+      <Avery mobile={mobile} />
       <div className="top-projects">
         <div className="home-title">
           <h1>Top Projects</h1>

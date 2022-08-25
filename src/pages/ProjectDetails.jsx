@@ -6,7 +6,8 @@ import Skills from '../components/Skills'
 const ProjectDetails = ({
   displayedProject,
   setDisplayedProject,
-  allProjects
+  allProjects,
+  mobile
 }) => {
   let { name } = useParams()
   useEffect(() => {

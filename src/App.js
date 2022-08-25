@@ -25,6 +25,8 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+  const [mobile, setMobile] = useState(window.innerWidth < 600)
+
   let allProjects = []
   let topProjects = []
   const [displayedProject, setDisplayedProject] = useState(null)
@@ -314,7 +316,7 @@ function App() {
       'https://github.com/anovick1/Theme_Park/raw/main/Images/Deployedform.png'
     ],
     github: 'https://github.com/anovick1/Theme_Park',
-    deployed_link: null
+    deployed_link: 'https://fast-sierra-11837.herokuapp.com/'
   }
   allProjects.push(theme)
   let nba = {
@@ -377,7 +379,7 @@ function App() {
       'https://github.com/anovick1/NBA-HotTakes/raw/main/images/profile.png'
     ],
     github: 'https://github.com/anovick1/NBA-HotTakes',
-    deployed_link: 'https://novick-nba-app.herokuapp.com/'
+    deployed_link: 'https://nbahottakesnovick.web.app/'
   }
   allProjects.push(nba)
   topProjects.push(nba)
@@ -449,12 +451,13 @@ function App() {
           path="/"
           element={
             <>
-              <Navbar />
+              <Navbar mobile={mobile} />
               <Home
                 topProjects={topProjects}
                 skills={skills}
                 displayedProject={displayedProject}
                 setDisplayedProject={setDisplayedProject}
+                mobile={mobile}
               />
               <Footer />
             </>
@@ -464,9 +467,9 @@ function App() {
           path="/about"
           element={
             <>
-              <Navbar />
-              <About />
-              <Footer />
+              <Navbar mobile={mobile} />
+              <About mobile={mobile} />
+              <Footer mobile={mobile} />
             </>
           }
         />
@@ -474,11 +477,12 @@ function App() {
           path="/projects"
           element={
             <>
-              <Navbar />
+              <Navbar mobile={mobile} />
               <Projects
                 allProjects={allProjects.reverse()}
                 displayedProject={displayedProject}
                 setDisplayedProject={setDisplayedProject}
+                mobile={mobile}
               />
               <Footer />
             </>
@@ -488,12 +492,13 @@ function App() {
           path="/:name"
           element={
             <>
-              <Navbar />
-              <Avery />
+              <Navbar mobile={mobile} />
+              <Avery mobile={mobile} />
               <ProjectDetails
                 allProjects={allProjects}
                 displayedProject={displayedProject}
                 setDisplayedProject={setDisplayedProject}
+                mobile={mobile}
               />
               <Footer />
             </>

@@ -332,3 +332,29 @@ footer p {
 #varjo:active {
   color: rgb(50, 50, 182);
 }
+
+@media only screen and (max-width: 600px) {
+  header {
+    width: 100vw;
+    display: flex;
+  }
+  nav {
+    width: 90vw;
+    justify-content: space-between;
+  }
+  .a-img-text {
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100vw;
+  }
+  .a-text h1,
+  .a-text h2 {
+    margin: 2vh 0;
+  }
+  .avery img {
+    width: 50vw;
+  }
+  .socials img {
+    width: 10vw;
+  }
+}

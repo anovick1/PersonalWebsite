@@ -1,7 +1,13 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Project = ({ p, index, displayedProject, setDisplayedProject }) => {
+const Project = ({
+  p,
+  index,
+  displayedProject,
+  setDisplayedProject,
+  mobile
+}) => {
   let navigate = useNavigate()
 
   const showProject = (p) => {
