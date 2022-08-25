@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Avery from '../components/Avery'
 
 const About = ({ mobile }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="home">
       <Avery mobile={mobile} />

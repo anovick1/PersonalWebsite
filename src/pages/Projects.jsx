@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Project from '../components/Project'
 import Avery from '../components/Avery'
 
@@ -8,6 +8,9 @@ const Projects = ({
   setDisplayedProject,
   mobile
 }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <Avery mobile={mobile} />

@@ -12,9 +12,9 @@ const Home = ({
   setDisplayedProject,
   mobile
 }) => {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-  // }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   let navigate = useNavigate()
   const viewMore = () => {
     navigate('/projects')
