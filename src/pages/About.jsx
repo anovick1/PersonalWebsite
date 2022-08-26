@@ -37,8 +37,7 @@ const About = ({ mobile }) => {
               .
             </h3>
             <h3>
-              Should you be interested in contacting me, please feel free to
-              reach out to me via cell, email, or LinkedIn.
+              Please feel free to reach out to me via cell, email, or LinkedIn.
             </h3>
           </div>
           <div className="section-cont" id="bio">
@@ -52,7 +51,7 @@ const About = ({ mobile }) => {
                 with a concentration in Entrepreneurship.
               </h3>
               <h3>
-                <span>July 2021</span> - I found an amazing opportunity as a
+                <span>July 2021</span> - I found an exciting opportunity as a
                 Sales Development Representative at{' '}
                 <a
                   href="https://varjo.com/"
@@ -61,7 +60,7 @@ const About = ({ mobile }) => {
                   id="varjo"
                 >
                   Varjo
-                </a>
+                </a>{' '}
                 (VR/XR Headsets).
               </h3>
               <h3>
