@@ -167,9 +167,9 @@ function App() {
       }
     ],
     short_description:
-      'A python script that takes live stock data to predict future stock prices using the WACC financial model',
+      'A python script that takes real time stock data to predict future stock prices',
     long_description:
-      'For my Computer Science Capstone Project at American University, I teamed up with another CS student and two finance students  to make a stock price prediction calculator. We automated financial models (WACC model, 5 year financial data forecast, and DCF model) that are able to predict the future prices of stocks. These models usually take analysts 3-4 hours in Excel to create but our calculator can yield a result in about 3 minutes.',
+      'For my Computer Science Capstone Project at American University, I teamed up with another CS student and two finance students to build a script that automates financial models to predict the price of a stock. We automated financial models (WACC model, 5 year financial data forecast, and DCF model) which are able to predict the future prices of stocks. These models usually take analysts 3-4 hours in Excel to create, but our calculator can yield a result in approximately  3 minutes.',
     img: [
       'https://sevensreport.com/wp-content/uploads/2016/07/stock-market-3.jpg'
     ],
@@ -219,9 +219,10 @@ function App() {
         link: 'https://disease.sh/'
       }
     ],
-    short_description: 'A map of the US showing Covid tests and Covid cases.',
+    short_description:
+      'A map of the US showing Covid test and case statistics.',
     long_description:
-      'This Covid map was created in May, 2021 as the final project in my Web Programming class at American University. It was a group project with 2 other students and the map allows user to get information on Covid testing and cases by state.',
+      'This Covid map was created in May, 2021 as the final project in my Web Programming class at American University. It was a group project with 2 other students and the map allows user to get statistics about Covid testing and cases by state.',
     img: ['https://github.com/anovick1/Covid-Map/raw/main/screenshot.png'],
     github: 'https://github.com/anovick1/Covid-Map',
     deployed_link: null
@@ -310,7 +311,7 @@ function App() {
     short_description:
       'A website where people can share their reviews of theme parks ',
     long_description:
-      'Theme Park Review was a day-and-a-half Hackathon with General Assembly. My group of three was tasked with creating a theme park themed Full Stack Application using React, MongoDB, and Mongoose/Express. We created a Theme Park Review Website that includes Yelp reviews.',
+      'Theme Park Review was a day-and-a-half Hackathon with General Assembly. My group of three was tasked with creating a theme park themed Full Stack Application using React, MongoDB, and Mongoose/Express. We created a Theme Park Review Website which includes Yelp reviews.',
     img: [
       'https://github.com/anovick1/Theme_Park/raw/main/Images/DeployedHomepage.png',
       'https://github.com/anovick1/Theme_Park/raw/main/Images/Deployedform.png'
@@ -371,9 +372,9 @@ function App() {
         link: 'https://developer.twitter.com/en'
       }
     ],
-    short_description: 'A social media dedicated to NBA hot takes',
+    short_description: 'A social media application dedicated to NBA hot takes',
     long_description:
-      'My second project with General Assembly, I was tasked to construct a full stack MongoDB, Express.js, React, Node (MERN) application over the course of 5 days. As an avid NBA fan who enjoys the sports discussion on Twitter, I created a social media app for NBA fans focused on the NBA . I implemented the Twitter API that will get live tweets each time I reseed the database.',
+      'For my second project with General Assembly, I was tasked to construct a full stack MongoDB, Express.js, React, Node (MERN) application over the course of 5 days. As an avid NBA fan, who enjoys the sports discussion on Twitter, I created a social media app for NBA fans focused on the NBA. Users can create new posts and comment / like others on other posts just like any other social media application. I implemented the Twitter API that will get live tweets each time I reseed the database. This can be viewed in each person’s profile.',
     img: [
       'https://github.com/anovick1/NBA-HotTakes/raw/main/images/newsfeed.png',
       'https://github.com/anovick1/NBA-HotTakes/raw/main/images/profile.png'
@@ -433,7 +434,7 @@ function App() {
     ],
     short_description: 'A dating app designed for people in the tech industry',
     long_description:
-      'Tech Tinder was my 3rd project at General Assembly, it was a 5 day group project with two others. Formatted for mobile and desktop, Tech Tinder is a full stack application using PostgreSQL, Express.js, React, Node.js (PERN). Tech Tinder is a fully functional mock dating app designed for people in the tech industry. It is just like tinder without the messaging (a future update!).',
+      'Tech Tinder was my third project at General Assembly. It was a 5 - day group project with two others. Formatted for mobile and desktop use, it is a fully functional mock dating app designed for people in the tech industry. It is just like tinder without the messaging (a future update!). Tech Tinder is a full-stack application using PostgreSQL, Express.js, React, and Node.js (PERN).',
     img: [
       './images/techtinder-home-mobile.png',
       'https://github.com/anovick1/Tech-Tinder-Front/raw/main/images/edit.png'
