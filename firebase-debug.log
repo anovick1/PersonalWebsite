@@ -1,0 +1,36 @@
+[debug] [2022-08-30T18:09:08.914Z] ----------------------------------------------------------------------
+[debug] [2022-08-30T18:09:08.937Z] Command:       /usr/local/bin/node /Users/averynovick/.npm-global/bin/firebase deploy
+[debug] [2022-08-30T18:09:08.937Z] CLI Version:   11.8.0
+[debug] [2022-08-30T18:09:08.937Z] Platform:      darwin
+[debug] [2022-08-30T18:09:08.938Z] Node Version:  v16.14.0
+[debug] [2022-08-30T18:09:08.944Z] Time:          Tue Aug 30 2022 14:09:08 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-08-30T18:09:08.944Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-30T18:09:08.975Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-08-30T18:09:09.106Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-30T18:09:09.107Z] > authorizing via signed-in user (averynovick17@gmail.com)
+[debug] [2022-08-30T18:09:09.107Z] [iam] checking project personal-website-ca966 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-08-30T18:09:09.108Z] > refreshing access token with scopes: []
+[debug] [2022-08-30T18:09:09.109Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-30T18:09:09.109Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-30T18:09:09.248Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-30T18:09:09.249Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-30T18:09:09.298Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-ca966:testIamPermissions [none]
+[debug] [2022-08-30T18:09:09.298Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-ca966:testIamPermissions x-goog-quota-user=projects/personal-website-ca966
+[debug] [2022-08-30T18:09:09.299Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-ca966:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-30T18:09:09.302Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-08-30T18:09:09.302Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-08-30T18:09:09.431Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-ca966:testIamPermissions 200
+[debug] [2022-08-30T18:09:09.432Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-ca966:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-30T18:09:09.433Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-ca966 [none]
+[debug] [2022-08-30T18:09:09.781Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-ca966 200
+[debug] [2022-08-30T18:09:09.781Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-ca966 {"projectId":"personal-website-ca966","projectNumber":"397205230782","displayName":"Personal Website","name":"projects/personal-website-ca966","resources":{"hostingSite":"personal-website-ca966"},"state":"ACTIVE","etag":"1_fc1336d3-e7b5-4086-ab2e-d6bef8ad8bd1"}
+[info] 
+[info] === Deploying to 'personal-website-ca966'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-08-30T18:09:09.783Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-ca966 [none]
+[debug] [2022-08-30T18:09:09.993Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-ca966 200
+[debug] [2022-08-30T18:09:09.993Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/personal-website-ca966 {"projectId":"personal-website-ca966","projectNumber":"397205230782","displayName":"Personal Website","name":"projects/personal-website-ca966","resources":{"hostingSite":"personal-website-ca966"},"state":"ACTIVE","etag":"1_fc1336d3-e7b5-4086-ab2e-d6bef8ad8bd1"}
+[debug] [2022-08-30T18:09:09.995Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/397205230782/sites/personal-website-ca966/versions [none]
+[debug] [2022-08-30T18:09:09.996Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/397205230782/sites/personal-website-ca966/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
