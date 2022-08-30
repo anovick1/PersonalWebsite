@@ -66,9 +66,10 @@ const About = ({ mobile }) => {
               <h3>
                 <span>June 2022</span> - While I enjoyed my time at Varjo and
                 learned a lot, I came to the conclusion that I truly wanted to
-                be a Software Engineer. Consequently, I decided to enroll in the
-                12-week intensive Software Engineering Immersive Bootcamp in
-                order to further develop my technical skills.
+                be a Software Engineer. Consequently, I decided to enroll in
+                General Assembly's 12-week intensive Software Engineering
+                Immersive Bootcamp in order to further develop my technical
+                skills.
               </h3>
             </div>
           </div>
