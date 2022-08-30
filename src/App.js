@@ -380,7 +380,7 @@ function App() {
       'https://github.com/anovick1/NBA-HotTakes/raw/main/images/profile.png'
     ],
     github: 'https://github.com/anovick1/NBA-HotTakes',
-    deployed_link: 'https://nbahottakesnovick.web.app/'
+    deployed_link: 'https://novick-nba-app.herokuapp.com/'
   }
   allProjects.push(nba)
   topProjects.push(nba)
