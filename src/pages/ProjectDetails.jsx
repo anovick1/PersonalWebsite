@@ -64,7 +64,9 @@ const ProjectDetails = ({
           <h2>Description</h2>
         </div>
         <div className="lp-description">
-          <h3>{displayedProject.long_description}</h3>
+          {displayedProject.long_description.map((d, index) => (
+            <h3 key={index}>{d}</h3>
+          ))}
           <p>{displayedProject.date}</p>
         </div>
       </div>
