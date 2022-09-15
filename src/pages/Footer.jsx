@@ -31,7 +31,7 @@ const Footer = () => {
             <img src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1GnQLT_PGd4vuk-0O70CEKVavZVTxHdgY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Tm5jLoxEseR_vFv9AE6X6RL6MUXwKY2F/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
