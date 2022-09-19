@@ -12,7 +12,7 @@ const About = ({ mobile }) => {
         <div className="home-title">
           <h1>About Me</h1>
           <a
-            href="https://drive.google.com/file/d/1GnQLT_PGd4vuk-0O70CEKVavZVTxHdgY/view"
+            href="https://drive.google.com/file/d/1Tm5jLoxEseR_vFv9AE6X6RL6MUXwKY2F/view"
             target="blank"
           >
             <p>Click here to view resume</p>
