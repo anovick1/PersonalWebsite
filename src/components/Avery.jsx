@@ -12,7 +12,6 @@ const Avery = ({ mobile }) => {
             </div>
             <h2>Full Stack Software Engineer</h2>
             <p>averynov@yahoo.com</p>
-            <p>(781) 290-8623</p>
             <div className="socials">
               <a
                 href="https://www.linkedin.com/in/avery-novick/"
@@ -47,7 +46,6 @@ const Avery = ({ mobile }) => {
             <h1>Avery Novick</h1>
             <h2>Full Stack Software Engineer</h2>
             <p>averynov@yahoo.com</p>
-            <p>(781) 290-8623</p>
             <div className="socials">
               <a
                 href="https://www.linkedin.com/in/avery-novick/"

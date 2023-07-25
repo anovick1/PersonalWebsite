@@ -11,9 +11,6 @@ const Footer = () => {
           <div className="f-info">
             <p>averynov@yahoo.com</p>
           </div>
-          <div className="f-info">
-            <p>(781) 290-8623</p>
-          </div>
         </div>
         <div className="socials" id="footer">
           <a
