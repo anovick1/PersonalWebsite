@@ -28,7 +28,7 @@ export const hero = {
 
 export const about = {
   paragraphs: [
-    "I build AI-powered products end-to-end and I'm motivated by using technology for good. From medical imaging research to conversational AI in healthcare, I focus on shipping real products that make an impact.",
+    "I build AI-powered products end-to-end and I'm motivated by using technology for social good. From medical imaging research to conversational AI in healthcare, I focus on shipping real products that make an impact.",
     'My toolkit spans the full stack: Python and PyTorch for modeling/analysis, React, Next.js, Node, Flask for front-ends and APIs, and cloud infrastructure (AWS, Firebase, Azure) for everything in between.',
     "I studied Computer Science and Business Administration at American University and am currently pursuing a Master's of Science in Computer Science at University of Southern California. When I'm not coding, I'm either in the gym or deep in an NBA debate (Go Warriors!).",
   ],
