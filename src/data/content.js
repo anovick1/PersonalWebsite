@@ -30,20 +30,20 @@ export const about = {
   paragraphs: [
     "I'm an engineer who loves taking AI from idea to production. Whether it's a 3D brain tumor segmentation model, a multi-modal fashion recommendation engine, or a patient-facing conversational AI system, I focus on shipping real products that work.",
     'My toolkit spans the full stack: Python and PyTorch for modeling, React and Node for front-ends and APIs, and cloud infrastructure (AWS, Firebase, Azure) for everything in between.',
-    "I studied Computer Science and Business at American University and am currently pursuing my Master's in Computer Science at USC. When I'm not coding, I'm either exercising or deep in an NBA debate.",
+    "I studied Computer Science and Business at American University and am currently pursuing my Master's of Science in Computer Science at USC. When I'm not coding, I'm either exercising or deep in an NBA debate.",
   ],
 };
 
 export const education = [
   {
     school: 'University of Southern California',
-    degree: "Master's in Computer Science",
+    degree: "Master's of Science in Computer Science",
     dates: 'Aug 2025 – Present',
     details: 'Graduate Research Assistant, Machine Learning',
   },
   {
     school: 'American University',
-    degree: 'B.S. with a Double Major in Computer Science and Business Administration',
+    degree: 'B.S. in Computer Science and Business Administration (Double Major)',
     dates: 'Aug 2017 – May 2021',
     details: 'Concentration in Entrepreneurship',
   },
