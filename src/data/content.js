@@ -28,9 +28,9 @@ export const hero = {
 
 export const about = {
   paragraphs: [
-    "I'm an engineer who loves taking AI from idea to production. Whether it's a 3D brain tumor segmentation model, a multi-modal fashion recommendation engine, or a patient-facing conversational AI system, I focus on shipping real products that work.",
-    'My toolkit spans the full stack: Python and PyTorch for modeling, React and Node for front-ends and APIs, and cloud infrastructure (AWS, Firebase, Azure) for everything in between.',
-    "I studied Computer Science and Business at American University and am currently pursuing my Master's of Science in Computer Science at USC. When I'm not coding, I'm either exercising or deep in an NBA debate.",
+    "I build AI-powered products end-to-end and I'm motivated by using technology for good. From medical imaging research to conversational AI in healthcare, I focus on shipping real products that make an impact.",
+    'My toolkit spans the full stack: Python and PyTorch for modeling/analysis, React, Next.js, Node, Flask for front-ends and APIs, and cloud infrastructure (AWS, Firebase, Azure) for everything in between.',
+    "I studied Computer Science and Business Administration at American University and am currently pursuing a Master's of Science in Computer Science at University of Southern California. When I'm not coding, I'm either in the gym or deep in an NBA debate (Go Warriors!).",
   ],
 };
 
