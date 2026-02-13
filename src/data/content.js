@@ -209,6 +209,15 @@ export const featuredProjects = [
 
 export const otherProjects = [
   {
+    title: 'Financial Portfolio Assistant',
+    date: 'December 2025',
+    description:
+      'An NLP-powered system for querying personal finance data and financial documents using natural language. Combines Text-to-SQL, retrieval-augmented generation (RAG), and earnings-call sentiment analysis.',
+    tech: ['Python', 'FastAPI', 'React', 'LangChain', 'OpenAI API', 'FAISS', 'NLP', 'Text-to-SQL'],
+    github: 'https://github.com/ghrodri/USC-CSCI544-FINAL_PROJECT',
+    deployed: null,
+  },
+  {
     title: 'Baseline',
     date: 'September 2022',
     description:
