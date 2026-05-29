@@ -27,24 +27,30 @@ const TimelineItem = ({ company, title, dates, bullets, isLast, index }) => (
           {dates}
         </span>
       </div>
-      <p className="text-sm font-medium text-accent-600 dark:text-accent-400 mb-3">
+      <p
+        className={`text-sm font-medium text-accent-600 dark:text-accent-400 ${
+          bullets.length > 0 ? 'mb-3' : ''
+        }`}
+      >
         {title}
       </p>
-      <ul className="space-y-2">
-        {bullets.map((b, i) => (
-          <li
-            key={i}
-            className="text-sm leading-relaxed text-neutral-600 dark:text-neutral-400 flex gap-2"
-          >
-            <span className="text-neutral-400 dark:text-neutral-600 mt-1.5 shrink-0">
-              <svg width="6" height="6" viewBox="0 0 6 6" fill="currentColor">
-                <circle cx="3" cy="3" r="3" />
-              </svg>
-            </span>
-            <span>{b}</span>
-          </li>
-        ))}
-      </ul>
+      {bullets.length > 0 && (
+        <ul className="space-y-2">
+          {bullets.map((b, i) => (
+            <li
+              key={i}
+              className="text-sm leading-relaxed text-neutral-600 dark:text-neutral-400 flex gap-2"
+            >
+              <span className="text-neutral-400 dark:text-neutral-600 mt-1.5 shrink-0">
+                <svg width="6" height="6" viewBox="0 0 6 6" fill="currentColor">
+                  <circle cx="3" cy="3" r="3" />
+                </svg>
+              </span>
+              <span>{b}</span>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   </motion.div>
 );
