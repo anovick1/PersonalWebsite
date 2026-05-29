@@ -108,7 +108,7 @@ export const experience = [
     title: 'Software Engineer Intern',
     dates: 'May 2026 – Present',
     bullets: [
-      'Automating key business processes through agentic workflows',
+      'Just started!',
     ],
   },
   {
