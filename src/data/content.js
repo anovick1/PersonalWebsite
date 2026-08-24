@@ -4,22 +4,22 @@
 
 export const siteConfig = {
   name: 'Avery Novick',
-  title: 'Avery Novick | AI, Data & Full-Stack Engineer',
+  title: 'Avery Novick | AI/ML & Full-Stack Engineer',
   description:
-    'Versatile engineer with experience building LLM agents, custom deep-learning computer vision models, full-stack mobile and web applications, and large-scale data pipelines.',
+    'Software engineer focused on AI/ML systems, including LLM workflow automation, hallucination-resistant validation, RAG, deep-learning computer vision, and production full-stack applications.',
   url: 'https://averynovick.dev',
   ogImage: '/images/og-image.png', // placeholder, add a 1200x630 image
 };
 
 export const hero = {
   name: 'Avery Novick',
-  headline: 'AI, Data & Full-Stack Engineer',
+  headline: 'AI/ML & Full-Stack Engineer',
   subheadline:
-    'Versatile engineer with experience building LLM agents, custom deep-learning computer vision models, full-stack mobile and web applications, and large-scale data pipelines.',
+    'Software engineer focused on AI/ML systems, including LLM workflow automation, hallucination-resistant validation, RAG, deep-learning computer vision, and production full-stack applications.',
   location: 'Los Angeles, CA',
   profileImage: '/images/linkedinPFP.png',
   cta: {
-    resume: 'https://drive.google.com/file/d/1jShZjqlyI3ck8gmrvTWUJxjjMMy6dBLs/view?usp=sharing',
+    resume: 'https://drive.google.com/file/d/1lSQnLVRjOdRf3mmUxHoPMnJ8LTYEagoS/view?usp=sharing',
     github: 'https://github.com/anovick1',
     linkedin: 'https://www.linkedin.com/in/avery-novick/',
     email: 'averynov@yahoo.com',
@@ -28,8 +28,8 @@ export const hero = {
 
 export const about = {
   paragraphs: [
-    "I build AI-powered products end-to-end and I'm motivated by using technology for social good. From medical imaging research to conversational AI in healthcare, I focus on shipping real products that make an impact.",
-    'My toolkit spans the full stack: Python and PyTorch for modeling/analysis, React, Next.js, Node, Flask for front-ends and APIs, and cloud infrastructure (AWS, Firebase, Azure) for everything in between.',
+    "I build AI and ML systems that move from research ideas or messy operational workflows into usable software. Recent work spans LLM workflow automation at BlackRock, medical image segmentation research, hallucination-resistant RAG, and full-stack mobile applications.",
+    'My toolkit spans Python, PyTorch, MONAI, RAG and LLM evaluation, React, React Native, FastAPI, Node, and cloud/data infrastructure across AWS, Firebase, Azure, Snowflake, and SQL.',
     "I studied Computer Science and Business Administration at American University and am currently pursuing a Master's of Science in Computer Science at University of Southern California. When I'm not coding, I'm either in the gym or deep in an NBA debate (Go Warriors!).",
   ],
 };
@@ -65,6 +65,8 @@ export const skills = {
     'FastAPI / Flask',
     'RAG / Retrieval Systems',
     'LLM Agents & Evaluation',
+    'LLM Output Validation',
+    'AI Workflow Automation',
     'Agentic Workflow Development',
     'AWS (Lambda, S3, CloudFront)',
     'Firebase Auth',
@@ -73,6 +75,8 @@ export const skills = {
     'Azure Data Factory',
     'Google ADK',
     'PyTorch',
+    'Machine Learning',
+    'Deep Learning',
     'Medical Image Segmentation',
     'FAISS / BM25',
     'PostgreSQL',
@@ -88,6 +92,9 @@ export const skills = {
     'Django',
     'Vue',
     'Spark',
+    'Snowflake',
+    'Streamlit',
+    'Microsoft Graph API',
     'MONAI',
     'U-Net / DynUNet',
     'SE Attention',
@@ -106,9 +113,11 @@ export const experience = [
   {
     company: 'BlackRock',
     title: 'Software Engineer Intern',
-    dates: 'May 2026 – Present',
+    dates: 'May 2026 – Aug 2026',
     bullets: [
-      'Just started!',
+      'Owned development of two new AI workflow automation implementations projected to save 16,800+ hours annually',
+      'Built validation and monitoring layers to reduce LLM hallucinations and keep generated classifications grounded in source data',
+      'Enhanced an existing production AI workflow system and created reusable implementation templates (Python, Snowflake, Streamlit)',
     ],
   },
   {
